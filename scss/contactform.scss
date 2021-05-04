@@ -1,0 +1,178 @@
+.contactform {
+  max-width: 980px;
+  height: 890px;
+  margin: 0 auto;
+  // background-color: green;
+  // margin-top: 60px;
+  // margin-bottom: 60px;
+
+  h1 {
+    font-family: proxima;
+    font-size: 60px;
+    font-weight: lighter;
+    color: #000000;
+    margin-bottom: 30px;
+  }
+
+  input {
+    border: 1px solid $blue;
+    font-family: gill;
+    font-size: 18px;
+    font-weight: lighter;
+    // width: 100%;
+    // padding: 10px;
+    // outline: none;
+    // box-sizing: border-box;
+  }
+
+  p {
+    font-family: gill;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-top: 15px;
+    white-space: nowrap;
+  }
+
+  .row1 {
+    display: flex;
+    justify-content: space-between;
+
+    .text1 {
+      width: 529px;
+      height: 60px;
+      margin-bottom: 20px;
+
+      input {
+        width: 100%;
+      }
+
+      .text-field {
+        width: 100%;
+        padding: 10px;
+        outline: none;
+        box-sizing: border-box;
+      }
+    }
+
+    .text2 {
+      width: 55%;
+      height: 58px;
+      margin-bottom: 20px;
+
+      input {
+        width: 100%;
+      }
+
+      .text-field2 {
+        width: 100%;
+        padding: 10px;
+        outline: none;
+        box-sizing: border-box;
+      }
+    }
+  }
+
+  .row2 {
+    display: flex;
+    justify-content: space-between;
+
+    .text1 {
+      width: 529px;
+      height: 60px;
+      margin-bottom: 20px;
+
+      input {
+        width: 100%;
+      }
+
+      .text-field {
+        width: 100%;
+        padding: 10px;
+        outline: none;
+        box-sizing: border-box;
+      }
+    }
+  }
+
+  .row3 {
+    display: flex;
+    justify-content: space-between;
+
+    .text1 {
+      width: 529px;
+      height: 60px;
+      margin-bottom: 20px;
+
+      input {
+        width: 100%;
+      }
+
+      .text-field {
+        width: 100%;
+        padding: 10px;
+        outline: none;
+        box-sizing: border-box;
+      }
+    }
+  }
+
+  .row4 {
+    display: flex;
+    justify-content: space-between;
+
+    .message {
+      width: 529px;
+      height: 199px;
+      margin-bottom: 20px;
+
+      input {
+        width: 100%;
+        height: 192px;
+      }
+
+      .text-field {
+        width: 100%;
+        padding: 10px;
+        outline: none;
+        box-sizing: border-box;
+      }
+    }
+  }
+
+  input {
+    font-family: gill;
+    font-size: 18px;
+    height: 58px;
+    margin: 0 10px 20px 0px;
+    border: solid 1px $blue;
+    padding: 2px 2px 2px 5px;
+  }
+
+  .send {
+    width: 40%;
+    height: 60px;
+    font-family: gill;
+    font-size: 15px;
+    background-color: $blue;
+    color: $white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px;
+    border-radius: 0px;
+  }
+
+  .socials {
+  }
+}
+@media only screen and (max-width: 1060px) {
+  .contactform {
+    margin-bottom: 600px;
+    .row4 {
+      display: block;
+      // align-items: center;
+      justify-content: center;
+      // background-color: green;
+    }
+  }
+}

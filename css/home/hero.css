@@ -1,0 +1,43 @@
+.hero {
+  max-width: 1280px;
+  min-height: 500px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 20px;
+  position: relative;
+  z-index: 4;
+}
+.hero .header {
+  width: 400px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  margin: 0 auto;
+}
+.hero .header h1 {
+  font-family: proxima;
+  color: white;
+  font-size: 60px;
+  margin-top: 100px;
+  text-align: center;
+}
+.hero .header p {
+  font-family: gill;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-weight: lighter;
+}
+.hero .header .read-more {
+  font-family: gill;
+  font-size: 15px;
+  background-color: #79addc;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 20px;
+  text-align: center;
+}

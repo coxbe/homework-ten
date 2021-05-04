@@ -1,0 +1,113 @@
+// .whitenav {
+//   nav {
+//     width: 76%;
+//     margin: 0 auto;
+//     height: 60px;
+//     // background-color: green;
+//     display: flex;
+//     justify-content: space-between;
+//     border-bottom: white solid 2px;
+//     margin-bottom: 50px;
+//     overflow: hidden;
+//     position: relative;
+//     z-index: 5;
+
+//     .logo {
+//       width: 92px;
+//       height: 42px;
+//       // background-color: aqua;
+//     }
+
+//     .links a {
+//       width: 542px;
+//       height: 42px;
+//       align-self: center;
+//       display: block;
+//       justify-content: space-between;
+//       align-items: center;
+//       overflow: hidden;
+//       color: white;
+//       // background-color: whitesmoke;
+//       font-family: gill;
+//       font-size: 15px;
+//       text-decoration: none;
+//       margin: auto;
+//       color: white;
+//       text-transform: lowercase;
+
+//       div {
+//         &.pipe {
+//           height: 60%;
+//           width: 2px;
+//           background-color: #79addc;
+//         }
+
+//         a {
+//           font-family: gill;
+//           font-size: 15px;
+//           text-decoration: none;
+//           margin: auto;
+//           color: white;
+//           text-transform: lowercase;
+//         }
+//       }
+//     }
+//   }
+// }
+
+// .blacknav {
+//   nav {
+//     width: 76%;
+//     margin: 0 auto;
+//     height: 60px;
+//     // background-color: green;
+//     display: flex;
+//     justify-content: space-between;
+//     border-bottom: black solid 2px;
+//     margin-bottom: 50px;
+//     overflow: hidden;
+//     position: relative;
+//     z-index: 5;
+
+//     .logo {
+//       width: 92px;
+//       height: 42px;
+//       // background-color: aqua;
+//     }
+
+//     .links a {
+//       width: 542px;
+//       height: 42px;
+//       align-self: center;
+//       display: block;
+//       justify-content: space-between;
+//       align-items: center;
+//       overflow: hidden;
+//       color: black;
+//       // background-color: whitesmoke;
+//       font-family: gill;
+//       font-size: 15px;
+//       text-decoration: none;
+//       margin: auto;
+//       color: black;
+//       text-transform: lowercase;
+
+//       div {
+//         &.pipe {
+//           height: 60%;
+//           width: 2px;
+//           background-color: #79addc;
+//         }
+
+//         a {
+//           font-family: gill;
+//           font-size: 15px;
+//           text-decoration: none;
+//           margin: auto;
+//           color: black;
+//           text-transform: lowercase;
+//         }
+//       }
+//     }
+//   }
+// }

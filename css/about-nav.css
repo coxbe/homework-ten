@@ -1,0 +1,36 @@
+nav {
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: #000000 solid 2px;
+  margin-bottom: 50px;
+  padding-top: 20px;
+  background-color: aqua;
+}
+nav .logo {
+  width: 92px;
+  height: 42px;
+}
+nav .links {
+  width: 542px;
+  height: 42px;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .links div.pipe {
+  height: 60%;
+  width: 2px;
+  background-color: #79addc;
+}
+nav .links div a {
+  font-family: gill;
+  font-size: 15px;
+  text-decoration: none;
+  margin: auto;
+  color: #000000;
+  text-transform: lowercase;
+}

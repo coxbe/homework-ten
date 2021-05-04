@@ -1,0 +1,7 @@
+@mixin center($elementWidth, $elementMargin: 0 auto) {
+  max-width: $elementWidth;
+  margin: $elementMargin;
+}
+
+@mixin siteButton($btnPadding) {
+}

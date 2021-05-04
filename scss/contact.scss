@@ -1,0 +1,66 @@
+.contact {
+  max-width: 1280px;
+  margin: 0 auto;
+  // background-color: gray;
+
+  .contact-section {
+    h1 {
+      width: 300px;
+      position: relative;
+      font-size: 30px;
+      font-family: proxima;
+      font-weight: lighter;
+      text-decoration: none;
+      letter-spacing: 8px;
+      margin-bottom: 50px;
+
+      span {
+        width: 70%;
+        position: absolute;
+        border-bottom: 4px black solid;
+        left: 0px;
+        bottom: 0px;
+      }
+    }
+  }
+
+  .contactus {
+    max-width: 1280px;
+    display: flex;
+
+    .location {
+      max-width: 1280px;
+
+      p {
+        font-family: gill;
+        font-weight: lighter;
+        font-size: 18px;
+        margin-top: -10px;
+      }
+
+      .map {
+        width: 400px;
+        height: 442px;
+        background-image: url(../images/map.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-bottom: 40px;
+      }
+
+      .address {
+        margin-bottom: 100px;
+      }
+    }
+
+    .contactform {
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .contactus {
+    padding: 10px;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,52 @@
+.hero {
+  max-width: 1280px;
+  min-height: 500px;
+  margin: 0 auto;
+  //   margin 0 auto only works if you have a width set, centers section
+  background-image: linear-gradient(to right, $overlay-black, $overlay-black),
+    url(../images/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  // padding-top: 20px;
+  position: relative;
+  z-index: 4;
+  margin-top: -200px;
+
+  .header {
+    width: 400px;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin: 0 auto;
+    padding-top: 80px;
+
+    h1 {
+      font-family: proxima;
+      color: white;
+      font-size: 60px;
+      margin-top: 100px;
+      text-align: center;
+    }
+
+    p {
+      font-family: gill;
+      color: white;
+      font-size: 20px;
+      text-align: center;
+      font-weight: lighter;
+    }
+
+    .read-more {
+      font-family: gill;
+      font-size: 15px;
+      background-color: #79addc;
+      color: white;
+      padding: 10px 30px;
+      border-radius: 20px;
+      text-align: center;
+    }
+  }
+}

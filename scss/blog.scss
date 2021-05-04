@@ -1,0 +1,86 @@
+.blog {
+  max-width: 1280px;
+  margin: 0 auto;
+  // background-color: gray;
+
+  .blog-top-section {
+    h1 {
+      width: 300px;
+      position: relative;
+      font-size: 30px;
+      font-family: proxima;
+      font-weight: lighter;
+      text-decoration: none;
+      letter-spacing: 8px;
+      margin-bottom: 20px;
+
+      span {
+        width: 45%;
+        position: absolute;
+        border-bottom: 4px black solid;
+        left: 0px;
+        bottom: 0px;
+      }
+    }
+  }
+
+  .blog-bottom-section {
+    width: 1280px;
+    display: flex;
+
+    .post {
+      width: 100%;
+
+      .date {
+        width: 60px;
+        height: 60px;
+        background-color: $blue;
+        text-align: center;
+        font-family: gill;
+        font-size: 22px;
+        font-weight: bolder;
+        padding-top: 10px;
+        color: $white;
+
+        .month {
+          font-size: 12px;
+          font-weight: normal;
+        }
+      }
+
+      .post1 {
+        max-width: 500px;
+        margin-left: 100px;
+        margin-top: -60px;
+
+        .blogimage {
+          width: 1150px;
+          height: 259px;
+          background-image: url(../images/blog.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+
+        .blogwords {
+          max-width: 350px;
+          font-family: gill;
+          font-size: 15px;
+          margin-top: 40px;
+          margin-bottom: 60px;
+
+          p {
+            font-size: 13px;
+            color: $blue;
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  .blog {
+    padding: 10px;
+  }
+}

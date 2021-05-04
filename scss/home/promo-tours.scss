@@ -1,0 +1,108 @@
+.promo-tours {
+  max-width: 1280px;
+  min-height: 304px;
+  margin: -50px auto 0 auto;
+  //   background-color: green;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-left: 160px;
+  padding-right: 160px;
+  //   padding goes to parent, by doing both sides it pushed the three promos in
+  z-index: 5;
+  position: relative;
+
+  .promo {
+    height: 304px;
+    width: 236px;
+    // background-color: bisque;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
+
+    .header {
+      font-family: proxima;
+      font-size: 60px;
+      margin-bottom: 10px;
+    }
+
+    .price {
+      font-family: proxima;
+      font-size: 30px;
+      margin-bottom: 50px;
+    }
+
+    .learn-more {
+      font-family: gill;
+      font-size: 15px;
+      background-color: #79addc;
+      padding: 10px 30px;
+      border-radius: 20px;
+    }
+  }
+
+  .israel {
+    background-image: $overlay,
+      url(../images/tour/tour-israel/israel-tour-01.jpg);
+  }
+
+  .usa {
+    background-image: $overlay, url(../images/tour/tour-usa/usa-tour-01.jpg);
+  }
+
+  .aus {
+    background-image: $overlay, url(../images/tour/tour-aus/aus-tour-01.jpg);
+  }
+
+  .nz {
+    background-image: $overlay, url(../images/tour/tour-nz/nz-tour-01.jpg);
+  }
+
+  .france {
+    background-image: $overlay,
+      url(../images/tour/tour-france/france-tour-01.jpg);
+  }
+
+  .egypt {
+    background-image: $overlay, url(../images/tour/tour-egypt/egypt-tour-01.jpg);
+  }
+
+  .jap {
+    background-image: $overlay, url(../images/tour/tour-japan/japan-tour-01.jpg);
+  }
+
+  .can {
+    background-image: $overlay,
+      url(../images/tour/tour-canada/canada-tour-01.jpg);
+  }
+
+  .uae {
+    background-image: $overlay, url(../images/tour/tour-uae/uae-tour-01.jpg);
+  }
+}
+
+@media only screen and (max-width: 1060px) {
+  .promo-tours {
+    // background-color: lightblue;
+    width: 236px;
+    // display: block;
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+
+    .promo {
+      margin-bottom: 30px;
+    }
+  }
+}
